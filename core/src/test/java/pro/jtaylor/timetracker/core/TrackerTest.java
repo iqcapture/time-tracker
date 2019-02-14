@@ -25,11 +25,13 @@ public class TrackerTest {
 
     @Test
     public void testAdd() {
+        System.out.println("TrackerTest::testAdd - test case begin...");
         TimeEntry entry = new TimeEntry();
         entry.setDescription("Entry Test");
         entry.setRate(80.0f);
         entry.setTime(3);
         tracker.add(entry);
         assertTrue(tracker.size() > 0);
+        System.out.println("TrackerTest::testAdd - ...test case end");
     }
 }
