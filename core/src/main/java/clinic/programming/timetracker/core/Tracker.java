@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import clinic.programming.timetracker.core.dao.TimeEntry;
 
 import java.util.List;
-// hello
+
 @Component
 public class Tracker {
     @Autowired
